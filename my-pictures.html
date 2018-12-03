@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>agustín</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/sign.png" id="logo" class="d-block mx-auto navbar-brand">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTop">
+            <ul class="navbar-nav mr-auto  container-fluid nav-justified">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="save-the-world.html">Save the World!</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about-me.html">About Me</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="my-projects.html">my Projects</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <div class="container-fluid div-sec-nav">
+      <ul class="list-inline container-fluid" id="secNav">
+        <li class="nav-item list-inline-item">
+          <a class="nav-link link-sec" href="my-pictures.html">
+            <figure><i class="fas fa-camera fa-3x"></i></figure>
+            <span>my Pictures</span>
+          </a>
+        </li>
+        <li class="nav-item-secondary list-inline-item">
+          <a class="nav-link link-sec" href="my-3d.html">
+            <figure><i class="fas fa-cubes fa-3x"></i></figure>
+            <span>my 3D's</span>
+          </a>
+        </li>
+        <!-- <li class="nav-item list-inline-item">
+          <a class="nav-link link-sec" href="my-apps.html">
+            <figure><i class="fas fa-mobile fa-3x"></i></figure>
+            <span>my Apps</span>
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </header>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+
+
+
+<div class="container-fluid">
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/foto3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/foto2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/foto2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/foto1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/foto2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/foto2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/foto2.jpg" style="width:100%">
+  </div>
+    
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Woods">
+    </div>
+    <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(3)" alt="The Woods">
+    </div>
+    <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Woods">
+    </div>
+    <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/foto2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/foto3.jpg" style="width:100%" onclick="currentSlide(7)" alt="Mountains and fjords">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
+

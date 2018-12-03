@@ -1,0 +1,92 @@
+.navbar {
+	background-color: black !important;
+	opacity: 0.88;	
+	font-size: 15px;
+}
+.navbar-nav {
+	max-width: 980px;
+}
+
+#logo{
+	height: 48px;
+	width: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#navbarTop {
+	padding: 0 6% 0 20px;
+}
+
+.navbar-brand {
+	padding: 0 2% 0 7%;
+}
+
+#secNav {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 12px 0 12px 0;
+	font-size: 15px;
+}
+
+.nav-item-sec {
+	color: black !important;
+	text-decoration: none;
+}
+
+.div-sec-nav{
+	background-color: rgba(242, 242, 242, 0.7) !important;
+}
+.link-sec {
+	color: black !important;
+}
+
+.link-sec:hover, .link-sec:active {
+	color: #666666 !important;
+}
+figure {
+	margin-bottom: 8px;
+}
+
+.logo-resume {
+	width: 500px;
+	height: auto;
+}
+
+.resume-top {
+	background-color: #1C345E;
+}
+.person {
+    margin-bottom: 25px;
+}
+hr {
+	margin: 20px !important;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	margin-bottom: 8px; 
+}
+
+
+.link-footer {
+	color: #666666 !important;
+	margin: 20px 10px 20px 10px;
+}
+
+.link-footer:hover, .link-footer:active {
+	color: white !important;
+	text-decoration: none;
+}
+
+@media (min-width: 768px){
+	.navbar{
+		height: 44px !important;
+	}
+}
