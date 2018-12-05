@@ -69,6 +69,7 @@ hr {
 
 ul {
 	list-style: none;
+	margin-bottom: 0px;
 }
 li {
 	margin-bottom: 8px; 
