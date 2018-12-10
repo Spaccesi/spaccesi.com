@@ -4,4 +4,7 @@ This repository contain all the code and media needed to support my personal web
 
 If you want to see the result, [click here](http://spaccesi.com/). 
 
-Thanks a lot to GitHub, [Font Awesome](https://fontawesome.com/) and [Bootstrap](https://getbootstrap.com/). 
+Thanks a lot to:
+- [GitHub Pages](https://pages.github.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Bootstrap](https://getbootstrap.com/)
