@@ -10,6 +10,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <style type="text/css">
+  /*Black Theme*/
+    body {
+      background-color: #0d0d0d;
+      color: white;
+    }
+    .div-sec-nav {
+      background-color: #0d0d0d !important;
+    }
+    .link-sec {
+      color: white !important;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -25,11 +38,11 @@
               <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                   <a class="nav-link" href="save-the-world.html">Save the World!</a>
-              </li>
+              </li> -->
               <li class="nav-item">
-                  <a class="nav-link" href="about-me.html">About Me</a>
+                  <a class="nav-link" href="my-resume.html">About Me</a>
               </li>
               <li class="nav-item active">
                   <a class="nav-link" href="my-projects.html">my Projects</a>
@@ -37,6 +50,7 @@
             </ul>
           </div>
     </nav>
+    <!--Secondary Navbar myProjects-->
     <div class="container-fluid div-sec-nav">
       <ul class="list-inline container-fluid" id="secNav">
         <li class="nav-item list-inline-item">
@@ -51,216 +65,406 @@
             <span>my 3D's</span>
           </a>
         </li>
-        <!-- <li class="nav-item list-inline-item">
-          <a class="nav-link link-sec" href="my-apps.html">
-            <figure><i class="fas fa-mobile fa-3x"></i></figure>
-            <span>my Apps</span>
-          </a>
-        </li> -->
       </ul>
     </div>
   </header>
-
-<style>
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-</style>
-
-
-
-<div class="container-fluid">
-  <div class="mySlides">
-    <div class="numbertext">1 / 3</div>
-    <img src="img/foto3.jpg" style="width:100%">
+  <div class="jumbotron text-center">
+    <h1 style="color: black;">my Pictures</h1>
+    <p class="text-secondary">--Discovering the world!</p>
   </div>
-  <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/foto2.jpg" style="width:100%">
+  <!--Ping pong challenge-->
+  <div class="text-center" id="ranch">
+  <div style="margin: 7%;">
+    <h3>Iamsterdam</h3>
+    <p class="text-secondary">--</p>
   </div>
-  <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/foto2.jpg" style="width:100%">
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">2 / 3</div>
-    <img src="img/foto1.jpg" style="width:100%">
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/foto2.jpg" style="width:100%">
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/foto2.jpg" style="width:100%">
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
-    <img src="img/foto2.jpg" style="width:100%">
-  </div>
-    
-  </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
   <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    <div class="col-6" style="">
+      <img src="my-pictures/amsterdam1.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
     </div>
-    <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Woods">
+    <div class="col-6">
+      <img src="my-pictures/amsterdam6.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
     </div>
-    <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(3)" alt="The Woods">
+    <div class="col-4">
+      <img src="my-pictures/amsterdam2.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
     </div>
-    <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Woods">
+    <div class="col-4">
+      <img src="my-pictures/amsterdam3.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
     </div>
-    <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img/foto1.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Woods">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img/foto2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Cinque Terre">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img/foto3.jpg" style="width:100%" onclick="currentSlide(7)" alt="Mountains and fjords">
+    <div class="col-4">
+      <img src="my-pictures/amsterdam5.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
     </div>
   </div>
-</div>
+  <hr>
+  <!--Madrid Airport-->
+  <div class="text-center" id="airport">
+    <div style="margin: 7%;">
+      <h3>Transit in Madrid</h3>
+      <p class="text-secondary">--Waiting for my flight in the Madird Airport I found this colorful spot, pefect for start an adventure and spend time with my 50mm.</p>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <img src="my-pictures/airport2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+      </div>
+      <div class="col-6">
+        <img src="my-pictures/airport1.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!--Life at the ranch-->
+  <div class="text-center" id="lights">
+    <div style="margin: 7%;">
+      <h3>Life at the ranch</h3>
+      <p class="text-secondary">--Back in 2016, I spent one summer in USA, working in a horses ranch.</p>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="my-pictures/ranch1.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch3.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch4.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch5.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch6.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch7.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch8.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch9.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ranch10.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+      </div>
+    </div>
+    <hr>
+    <!--Niagara Falls-->
+    <div class="text-center" id="niagara">
+    <div style="margin: 7%;">
+      <h3>Niagara Falls</h3>
+      <p class="text-secondary">--Somewhere over the rainbow</p>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="my-pictures/falls4.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/falls1.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/falls2.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/falls3.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </div>
+    </div>
+    <hr>
+    <!--Ping pong challenge-->
+    <div class="text-center" id="ping">
+    <div style="margin: 7%;">
+      <h3>Playing Ping-pong</h3>
+      <p class="text-secondary">Some people just does nt know how to play</p>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="my-pictures/ping1.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ping2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ping3.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+      </div>
+      <div class="col-3">
+        <img src="my-pictures/ping4.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+      </div>
+    </div>
+    <hr>
+    <!--Drawing with lights-->
+    <div class="text-center" id="ranch">
+      <div style="margin: 7%;">
+        <h3>Drawing with lights</h3>
+        <p class="text-secondary">--</p>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <img src="my-pictures/lights1.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="col-6">
+          <img src="my-pictures/lights2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--Sky Pictures on the ranch -->
+    <div class="text-center" id="sky">
+      <div style="margin: 7%;">
+        <h3>Sky</h3>
+        <p class="text-secondary">--Being in the middle of no way, far away from the city lights the sky looks like a Christmast tree. It is funny to think what could happen if we turn off the world at least for a few seconds.</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="my-pictures/sky1.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/sky2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/sky3.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--Crash Race-->
+    <div class="text-center" id="car-crash">
+      <div style="margin: 7%;">
+        <h3>Car crash race</h3>
+        <p class="text-secondary">--Such a good way to have fun destroying your car</p>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="my-pictures/feria1.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/feria2.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/feria3.png" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/feria4.png" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/feria5.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+        <div class="col-4">
+          <img src="my-pictures/feria6.png" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+        </div>
+      </div>
+    </div>
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-    
-
-
-  <footer>
-    
+  <!--Modal-->
+  <div id="myModal" class="modal">
+    <!--Title and close button-->
+    <div class="text-center container-fluid">
+      <h1>my Pictures</h1>
+      <p class="text-secondary">--Discovering the world!</p>
+    </div>
+    <span class="close cursor" onclick="closeModal()">&#10094;</span>
+    <!--Content-->
+    <div class="modal-content">
+      <!--Madird Airport Pics-->
+      <div class="mySlides">
+        <div class="numbertext">2 / 2</div>
+        <img src="my-pictures/airport1.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">1 / 2</div>
+        <img src="my-pictures/airport2.png" style="width:100%">
+      </div>
+      <!--Ranch Pics-->
+      <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+        <img src="my-pictures/ranch1.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+        <img src="my-pictures/ranch2.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <img src="my-pictures/ranch3.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="my-pictures/ranch4.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="my-pictures/ranch5.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 7</div>
+        <img src="my-pictures/ranch6.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 8</div>
+        <img src="my-pictures/ranch7.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 9</div>
+        <img src="my-pictures/ranch8.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="my-pictures/ranch9.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="my-pictures/ranch10.png" style="width:100%">
+      </div>
+      <!--Sky Ranch Pics-->
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="my-pictures/sky1.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="my-pictures/sky2.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="my-pictures/sky3.png" style="width:100%">
+      </div>
+      <!--Niagara Falls Pics-->
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="my-pictures/falls1.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="my-pictures/falls2.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="my-pictures/falls3.png" style="width:100%">
+      </div>
+      <!--Crash Race Pics-->
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="my-pictures/feria1.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="my-pictures/feria2.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="my-pictures/feria3.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="my-pictures/feria4.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="my-pictures/feria5.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="my-pictures/feria6.png" style="width:100%">
+      </div>
+      <!--Ping pong challegen Pics-->
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src="my-pictures/ping1.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 3</div>
+        <img src="my-pictures/ping2.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="my-pictures/ping3.png" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 3</div>
+        <img src="my-pictures/ping4.png" style="width:100%">
+      </div>
+      <!--Control Buttons and picture name-->
+      <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      <!--Pictures Modal Down-->
+      <div class="row">
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/ranch5.png" style="width:100%" onclick="currentSlide(7)" alt="Nature and sunrise">
+        </div>
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/ranch4.png" style="width:100%" onclick="currentSlide(6)" alt="Nature and sunrise">
+        </div>
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/ranch3.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/ranch2.png" style="width:100%" onclick="currentSlide(4)" alt="Nature and sunrise">
+        </div>
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/ranch1.png" style="width:100%" onclick="currentSlide(3)" alt="Nature and sunrise">
+        </div>
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/airport2.png" style="width:100%" onclick="currentSlide(2)" alt="Nature and sunrise">
+        </div>
+        <div class="col-2">
+          <img class="demo cursor" src="my-pictures/airport1.png" style="width:100%" onclick="currentSlide(1)" alt="Snow">
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer class="navbar text-center container-fluid" style="height: 10% !important;">
+    <div class="container-fluid" style="max-width: 300px;">
+      <a href="www.linkedin.com/in/agustinspaccesi" class="link-footer" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://wa.me/34695496544" class="link-footer" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+      <a href="mailto:agustinspaccesi@gmail.com?Subject=Hello%20from%20your%20Website" target="_top" class="link-footer"><i <i class="far fa-envelope-open fa-2x"></i></i></a>
+      <a href="" class="link-footer" target="_blank"><i class="fab fa-skype fa-2x"></i></a>
+    </div>
   </footer>
-</body>
+  <script>
+  function openModal() {
+    document.getElementById('myModal').style.display = "block";
+  }
+
+  function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+  }
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+      
+  </body>
+</html>
 </html>
 
