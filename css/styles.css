@@ -75,7 +75,11 @@ li {
 	margin-bottom: 8px; 
 }
 
-
+/*Footer Style*/
+footer {
+  height: 150px !important; 
+  background-color: black;
+}
 .link-footer {
 	color: #666666 !important;
 	margin: 20px 10px 20px 10px;
@@ -86,13 +90,12 @@ li {
 	text-decoration: none;
 }
 
+
 @media (min-width: 768px){
 	.navbar{
 		height: 44px !important;
 	}
 }
-
-
 
 /* The Modal (background) */
 .modal {
@@ -181,9 +184,6 @@ li {
   position: absolute;
   top: 0;
 }
-
-
-
 .caption-container {
   text-align: center;
   background-color: black;
@@ -207,4 +207,26 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow:  0 3px 10px 0 darkgrey;
+}
+
+/*Privacy callout*/
+.callout {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 0px;
+  padding: 0px 10px;
+  background-color: white;
+  opacity: 0.8;
+  color: black;
+  border-radius: 5px;
+}
+.closebtn { 
+  cursor: pointer;
+  position: fixed;
+  bottom: 0px;
+  right: 5px;
+}
+.closebtn:hover {
+  color: lightgrey;
 }

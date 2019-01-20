@@ -15,6 +15,14 @@
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="icon" type="image/png" href="img/yo32x25.png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75586685-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-75586685-3');
+  </script>
 </head>
 <body>
   <header>
@@ -66,33 +74,35 @@
     </div>
   </header>
   <!--Head Resume-->
-  <div class="resume-top row">
-    <div class="col-md-4">
-      <img src="img/yo144ppp.png" class="img-fluid" alt="José Agustín Spaccesi"> 
-    </div>
-    <div class="col-md-8 align-self-center text-center d-none d-md-block">
-      <h1 style="color: #e9ecef;">jose agustin spaccesi</h1>
-      <p style="color: #e9ecef;">____________________________</p>
-      <p style="color: #e9ecef;">Industrial Engineer</p>
+  <div class="resume-top container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+          <img src="img/yo144ppp.png" class="img-fluid" alt="José Agustín Spaccesi"> 
+      </div>
+      <div class="col-md-8 align-self-center text-center d-none d-md-block">
+        <h1 style="color: #e9ecef;">jose agustin spaccesi</h1>
+        <p style="color: #e9ecef;">____________________________</p>
+        <p style="color: #e9ecef;">Industrial Engineer</p>
+      </div>
     </div>
   </div>
   <!--Download choice-->
-  <div class="jumbotron text-center col-12">
+  <div class="jumbotron text-center">
     <a href="resources/cv.pdf" download target="_blank"><h4><i class="far fa-file-pdf"></i>  Dowload my Resume in PDF</h></a>
   </div>
   <!--Education-->
   <div id="education" class="container-fluid" style="max-width: 1500px;">
     <hr> 
     <h1 class="text-center">Education</h1><br>
-      <div class="row container-fluid" style="padding-bottom: 30px;">
-        <div class="col-md-4">
-          <h4>Univertitat Politèctica de València</h4>
-          <p>Sep 2018 - Current</p>
-        </div>
-        <div class="col-md-8" style="padding-left: 40px;">
-          <h4>Master's Degree in Industrial Engineering</h4>
-          <p class="text-secondary">This Degree provides the students with a deep professional and scientific background and with a great variety of knowledge about industrial technologies like mechanics, electricity, electronics, automation, materials, industrial building, projects, environment, energy and industrial organization and management. <a href="http://www.upv.es/titulaciones/GITI/index-en.html" target="_blank">Read more...</a></p>
-        </div>
+    <div class="row container-fluid" style="padding-bottom: 30px;">
+      <div class="col-md-4">
+        <h4>Univertitat Politèctica de València</h4>
+        <p>Sep 2018 - Current</p>
+      </div>
+      <div class="col-md-8" style="padding-left: 40px;">
+        <h4>Master's Degree in Industrial Engineering</h4>
+        <p class="text-secondary">This Degree provides the students with a deep professional and scientific background and with a great variety of knowledge about industrial technologies like mechanics, electricity, electronics, automation, materials, industrial building, projects, environment, energy and industrial organization and management. <a href="http://www.upv.es/titulaciones/GITI/index-en.html" target="_blank">Read more...</a></p>
+      </div>
     </div>
     <div class="row container-fluid" style="padding-bottom: 30px;">
       <div class="col-md-4">
@@ -134,7 +144,7 @@
   <div class="container-fluid jumbotron" id="abilities">
     <h1 class="text-center">Abilities</h1>
     <p class="text-center secondary-text">--What am I good for?</p>
-    <div class="container" style="max-width: 1200px;">
+    <div class="container-fluid" style="max-width: 1200px;">
       <hr>
       <h2 class="">Skills</h2><br>
       <div class="row">
@@ -449,7 +459,7 @@
     </div>
   </div>
   <!--Additional Education-->
-  <div id="courses">
+  <div id="courses" class="container-fluid">
     <hr>
     <h1 class="text-center">Courses and Licenses</h1>
     <p class="text-center text-secondary">--Additional Education</p>
@@ -565,14 +575,25 @@
   </div>
   <hr>
 
-  <footer class="navbar text-center container-fluid" style="height: 10% !important;">
-    <div class="container-fluid" style="max-width: 300px;">
+  <footer class="text-center">
+    <div class="container" style="max-width: 300px; padding: 30px;">
       <a href="www.linkedin.com/in/agustinspaccesi" class="link-footer"><i class="fab fa-linkedin fa-2x"></i></a>
       <a href="https://wa.me/34695496544" class="link-footer"><i class="fab fa-whatsapp fa-2x"></i></a>
       <a href="mailto:agustinspaccesi@gmail.com?Subject=Hello%20from%20your%20Website" target="_top" class="link-footer"><i <i class="far fa-envelope-open fa-2x"></i></i></a>
       <a href="" class="link-footer"><i class="fab fa-skype fa-2x"></i></a>
     </div>
+    <div class="text-center container">
+      <p class="">
+        <a href="index.html" class="link-footer">Home</a> 
+        <a href="contact-me.html" class="link-footer">Contact me</a> 
+        <a href="privacy-policy.html" class="link-footer">Privacy Policy</a>
+      </p>
+    </div>
   </footer>
+  <!--Privacy Call-->
+  <div class="callout">
+    <p style="margin: 0px;">I use cookies. <a href="privacy-policy.html">Privacy Policy</a>.&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span class="closebtn" onclick="this.parentElement.style.display='none';"><i class="fas fa-window-close"></i></span></p>
+  </div>
 </body>
 </html>
 

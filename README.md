@@ -8,3 +8,8 @@ Thanks a lot to:
 - [GitHub Pages](https://pages.github.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Bootstrap](https://getbootstrap.com/)
+
+Cookies are used in order to get information to improve the content:
+- Google Analytics
+- Google Search Console  
+[Click here](http://spaccesi.com/privacy-police.html) for more information.
