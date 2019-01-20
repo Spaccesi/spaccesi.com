@@ -12,4 +12,4 @@ Thanks a lot to:
 Cookies are used in order to get information to improve the content:
 - Google Analytics
 - Google Search Console  
-[Click here](http://spaccesi.com/privacy-police.html) for more information.
+[Click here](http://spaccesi.com/privacy-policy.html) for more information.
