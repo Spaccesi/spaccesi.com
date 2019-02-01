@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="img/as.png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75586685-3"></script>
   <script>
@@ -33,54 +34,36 @@
 </head>
 <body>
   <header>
-    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="img/sign.png" id="logo" class="d-block mx-auto navbar-brand">
-        </a>
+            <img id="logo" src="img/as-w.png">
+          </a>  
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTop">
-            <ul class="navbar-nav mr-auto  container-fluid nav-justified">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <!-- <li class="nav-item">
-                  <a class="nav-link" href="save-the-world.html">Save the World!</a>
-              </li> -->
-              <li class="nav-item">
-                  <a class="nav-link" href="my-resume.html">About Me</a>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="my-projects.html">my Projects</a>
-              </li>
-            </ul>
-          </div>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
+              <ul class="navbar-nav mr-auto  container-fluid align-self-center justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="my-resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="my-pictures.html">Pictures</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="my-3d.html">3D Prints</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-me.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+      </div>
     </nav>
-    <div class="container-fluid div-sec-nav">
-      <ul class="list-inline container-fluid" id="secNav">
-        <li class="nav-item list-inline-item">
-          <a class="nav-link link-sec" href="my-pictures.html">
-            <figure><i class="fas fa-camera fa-3x"></i></figure>
-            <span>my Pictures</span>
-          </a>
-        </li>
-        <li class="nav-item-secondary list-inline-item">
-          <a class="nav-link link-sec" href="my-3d.html">
-            <figure><i class="fas fa-cubes fa-3x"></i></figure>
-            <span>my 3D's</span>
-          </a>
-        </li>
-        <!-- <li class="nav-item list-inline-item">
-          <a class="nav-link link-sec" href="my-apps.html">
-            <figure><i class="fas fa-mobile fa-3x"></i></figure>
-            <span>my Apps</span>
-          </a>
-        </li> -->
-      </ul>
-    </div>
   </header>
-  
   <div class="jumbotron text-center" style="color: black;">
     <h1>my 3D models</h1>
     <p class="text-secondary">--Changing my world!</p>
@@ -159,155 +142,25 @@
     </div>
   </div>
 
- <div class="container-fluid" style="margin-top: 10%;" id="">
-    <div class="text-center">
-      <h3>Flash difusor</h3>
-      <p class="text-secondary" style="margin: 5%;">I love photography, same as many people all around the world. This is my design of a flash difusor for a ... <a href="">Open on Thingiver</a></p>
+  <footer class="text-center container-fluid" style="padding: 30px;">
+    <div class="text-center container-fluid">
+      <p class="">
+        <a href="index.html" class="link-footer">Home</a>
+        <a href="my-resume.html" class="link-footer">Resume</a>
+        <a href="my-pictures.html" class="link-footer">Pictures</a>
+        <a href="my-3d.html" class="link-footer">3D Prints</a>
+        <a href="contact-me.html" class="link-footer">Contact</a>
+        <a href="privacy-policy.html" class="link-footer">Privacy Policy</a>
+      </p>
     </div>
-    <div class="row">
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Nature" onclick="openImg(this);" class="gallery">
-      </div>
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Snow" onclick="openImg(this);" class="gallery">
-      </div>
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Mountains" onclick="openImg(this);" class="gallery">
-      </div>
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Lights" onclick="openImg(this);" class="gallery">
-      </div>
-    </div>
-
-    <!-- The expanding image container -->
-    <div class="container">
-      <!-- Close the image -->
-      <span onclick="this.parentElement.style.display='none'" class="closebtn" style="margin-right: 20px;">&times;</span>
-
-      <!-- Expanded image -->
-      <img id="expandedImg" style="width:100%">
-
-      <!-- Image text -->
-      <div id="imgtext"></div>
-    </div>
-    <hr>
-    <div class="jumbotron text-center">
-      <a href="">
-        <h5><i class="fas fa-download"></i>Download Here!</h5>
-      </a>
-    </div>
-  </div>
-  <div class="container-fluid" style="margin-top: 10%;" id="">
-    <div class="text-center">
-      <h3>Power Source</h3>
-      <p class="text-secondary" style="margin: 5%;">I bought a 2in1 Tablet PC on China. Everything it is okay but it has an American plug and I live in Europe and the shape of the power is not good because on libery i need to places for connect my tablet. That is why I create a new shell with a different plug.<a href="">Open on Thingiver</a></p>
-    </div>
-    <div class="row">
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Nature" onclick="openImg(this);" class="gallery">
-      </div>
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Snow" onclick="openImg(this);" class="gallery">
-      </div>
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Mountains" onclick="openImg(this);" class="gallery">
-      </div>
-      <div class="col-3 pic">
-        <img src="img/fondo.jpg" alt="Lights" onclick="openImg(this);" class="gallery">
-      </div>
-    </div>
-
-    <!-- The expanding image container -->
-    <div class="container">
-      <!-- Close the image -->
-      <span onclick="this.parentElement.style.display='none'" class="closebtn" style="margin-right: 20px;">&times;</span>
-
-      <!-- Expanded image -->
-      <img id="expandedImg" style="width:100%">
-
-      <!-- Image text -->
-      <div id="imgtext"></div>
-    </div>
-    <hr>
-    <div class="jumbotron text-center">
-      <a href="">
-        <h5><i class="fas fa-download"></i>Download Here!</h5>
-      </a>
-    </div>
-  </div>
-
-
-
-
-  <footer class="navbar text-center container-fluid" style="height: 10% !important;">
-    <div class="container-fluid" style="max-width: 300px;">
+    <div class="container" style="max-width: 300px; padding: 30px;">
       <a href="www.linkedin.com/in/agustinspaccesi" class="link-footer"><i class="fab fa-linkedin fa-2x"></i></a>
       <a href="https://wa.me/34695496544" class="link-footer"><i class="fab fa-whatsapp fa-2x"></i></a>
-      <a href="mailto:agustinspaccesi@gmail.com?Subject=Hello%20from%20your%20Website" target="_top" class="link-footer"><i <i class="far fa-envelope-open fa-2x"></i></i></a>
+      <a href="mailto:agustin@spaccesi.com?Subject=Hello%20from%20your%20Website" target="_top" class="link-footer"><i <i class="far fa-envelope-open fa-2x"></i></i></a>
       <a href="" class="link-footer"><i class="fab fa-skype fa-2x"></i></a>
     </div>
+    <p class="text-secondary">____<img src="img/sign.png" class="sign">____</p>
   </footer>
 </body>
-<script type="text/javascript">
-      function openImg(imgs) {
-      // Get the expanded image
-      var expandImg = document.getElementById("expandedImg");
-      // Get the image text
-      var imgText = document.getElementById("imgtext");
-      // Use the same src in the expanded image as the image being clicked on from the grid
-      expandImg.src = imgs.src;
-      // Use the value of the alt attribute of the clickable image as text inside the expanded image
-      imgText.innerHTML = imgs.alt;
-      // Show the container element (hidden with CSS)
-      expandImg.parentElement.style.display = "block";
-      }
-    </script>
-<style type="text/css">
-  .gallery {
-    width: 100%;
-  }
-  /* Style the images inside the grid */
-  .pic img {
-      opacity: 0.8; 
-      cursor: pointer;
-      padding: 10px 
-  }
-
-  .pic img:hover {
-      opacity: 1;
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-      content: "";
-      display: table;
-      clear: both;
-  }
-
-  /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container {
-      position: relative;
-      display: none;
-  }
-
-  /* Expanding image text */
-  #imgtext {
-      position: absolute;
-      bottom: 15px;
-      left: 15px;
-      color: white;
-      font-size: 20px;
-  }
-
-  /* Closable button inside the image */
-  .closebtn {
-      position: absolute;
-      top: 10px;
-      right: 15px;
-      color: white;
-      font-size: 35px;
-      cursor: pointer;
-  }
-</style>
 </html>
 
