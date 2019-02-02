@@ -14,35 +14,10 @@
 #logo{
 	height: 50px;
 	width: auto;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
-#secNav {
-	position: relative;
-	height: 120px;
-	text-align: center;
-	white-space: nowrap;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	padding: 12px 0 12px 0;
-	font-size: 15px;
-}
 
-.nav-item-sec {
-	color: black !important;
-	text-decoration: none;
-}
-
-.div-sec-nav{
-	background-color: rgba(242, 242, 242, 0.7) !important;
-}
-.link-sec {
-	color: black !important;
-}
-
-.link-sec:hover, .link-sec:active {
-	color: #666666 !important;
-}
 figure {
 	margin-bottom: 8px;
 }
