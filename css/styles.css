@@ -199,3 +199,18 @@ img.hover-shadow {
 .closebtn:hover {
   color: lightgrey;
 }
+
+footer {
+  padding: 30px;
+}
+
+.no-style-link {
+  cursor: pointer;
+  color: black;
+
+
+}
+.no-style-link:hover {
+  color: grey;
+  text-decoration: none;
+}
