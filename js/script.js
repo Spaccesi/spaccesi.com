@@ -45,3 +45,10 @@ function openImg(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
  }
+
+$(document).ready(function(){
+    $(".show-toast").click(function(){
+        $("#myToast").toast({ autohide: false });
+        $("#myToast").toast('show');
+    }); 
+});

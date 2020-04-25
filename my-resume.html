@@ -23,6 +23,18 @@
     gtag('js', new Date());
     gtag('config', 'UA-75586685-3');
   </script>
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover({
+            placement : 'top'
+        });
+    });
+  </script>
+  <style type="text/css">
+    .popover{
+      max-width: 50%;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -78,7 +90,7 @@
     <a href="downloads/j_a_spaccesi_CV.pdf" download target="_blank"><h4><i class="far fa-file-pdf"></i>  Dowload my Resume in PDF</h></a>
   </div>
   <!--Work Experience-->
-  <div id="experience">
+  <div id="experience" class="jumbotron" style="background: transparent;">
     <div class="text-center">
       <hr>
       <h2>Experience</h2>
@@ -102,6 +114,7 @@
           <img src="img/UPV.jpg" style="height:100px;">
         </div> -->
       </div>
+      <br>
       <div class="row container-fluid">
         <div class="col-md-3 d-none d-md-block">
           <h4>Feb 2018 - Jun 2018</h4>
@@ -136,7 +149,52 @@
         </div>
         <div class="col-md-1 d-none d-md-block"></div>
         <div class="col-md-8">
-          <h4>Master's Degree in Industrial Engineering: Design and Manufacturing</h4>
+          <h4><a tabindex="0" class="no-style-link" data-toggle="popover" title="Courses&nbsp;made&nbsp;during&nbsp;the&nbsp;Master" data-content="
+          <h5>Basic Training</h5>
+          <b>Management</b>
+            <ul>
+              <li>- Management</li>
+              <li>- Operations Management</li>
+              <li>- Project Management</li>
+            </ul>
+          <b>Industrial Constructions and Mechanical Engineering</b>
+            <ul>
+              <li>- Construction, Architecture and Industrial Urban Planning</li>
+              <li>- Design and application of industrial equipment</li>
+              <li>- Manufacturing Technology</li>
+            </ul>
+          <b>Industrial Systems</b>
+            <ul>
+              <li>- Fluid Systems Engineering</li>
+              <li>- Generation, Transmission and Distribution of Electric Power</li>
+              <li>- Heating, Cooling and Air Conditioning</li>
+            </ul>
+          <b>Industrial Technologies Expansion</b>
+            <ul>
+              <li>- Advanced Energy and Thermal Machines</li>
+              <li>- Industrial & Chemical Technology</li>
+              <li>- Industrial Instrumentation and Control</li>
+            </ul>
+            <br>
+          <h5>Specialisation: Product Design and Manufacturing</h5>
+          <b>Computer Aided Design (CAD)</b>
+            <ul>
+              <li>- Management of the digital representation of the product</li>
+              <li>- Advanced technologies in computer-aided design</li>
+              <li>- Animation and rendering for product presentation</li>
+            </ul>
+          <b>Design and manufacturing</b>
+            <ul>
+              <li>- Advanced Manufacturing Technologies</li>
+              <li>- Integrated Design and Manufacturing</li>
+              <li>- Rapid prototyping and reverse engineering</li>
+            </ul>
+          <b>Design Metodologies</b>
+            <ul>
+              <li>- Generative product design</li>
+              <li>- User-Centered Design (UCD)</li>
+            </ul>
+        " data-trigger="focus" data-html="true" data-container="body">Master's Degree in Industrial Engineering: Design and Manufacturing</a></h4>
           <h5>Universitat Politèctica de València</h5>
           <p class="text-secondary"><b>This Degree is comparable to a Mechanical Engineer in USA</b>. It provides the students with a deep professional and scientific background and with a great variety of knowledge about industrial technologies like mechanics, electricity, electronics, automation, materials, industrial building, projects, environment, energy and industrial organization and management. <a href="https://www.upv.es/titulaciones/MUII/index-en.html" target="_blank">Read more...</a></p>
         </div>
@@ -181,7 +239,82 @@
         </div>
         <div class="col-md-1 d-none d-md-block"></div>
         <div class="col-md-8">
-          <h4>Bachelor's Degree in Industrial Technology Engineering</h4>
+          <h4><a tabindex="0" class="no-style-link" data-toggle="popover" title="Courses" data-content="
+          <h5>Basic Training</h5>
+          <b>Mathematics</b> (Mathematics I, II and Statistics) <br>
+          <b>Physics</b> (Physical I and II) <br>
+          <b>Chemistry</b><br>
+          <b>Computer Science</b><br>
+          <b>Technical Drawing</b><br>
+          <b>Industrial Business and Economy</b><br><br>
+          
+          <h5>Common To The Industrial Branch</h5>
+          <b>Electrotechnics, Electronics, And Automation</b>
+            <ul>
+              <li>- Circuit analysis</li>
+              <li>- Control Systems</li>
+              <li>- Electronic systems</li>
+            </ul>
+          <b>Mechanics and materials</b>
+            <ul>
+              <li>- Elasticity and Strength of Materials</li>
+              <li>- Materials Science</li>
+              <li>- Theory of Machines</li>
+            </ul>
+          <b>Thermodynamics And Fluid Mechanics</b>
+            <ul>
+              <li>- Fluid Mechanics</li>
+              <li>- Heat Transfer</li>
+              <li>- Thermodynamics</li>
+            </ul>
+          <b>Industrial Production, Projects, And Environment</b>
+            <ul>
+              <li>- Hydraulic machines</li>
+              <li>- Thermal Machines</li>
+              <li>- Fundamentals of Business Organization</li>
+              <li>- Production and Manufacturing Systems</li>
+            </ul>
+          <h5>Technologies</h5>
+          <b>Fluid Mechanics Systems And Machines</b>
+            <ul>
+              <li>- Hydraulic machines</li>
+              <li>- Thermal Machines</li>
+            </ul>
+          <b> Machine And Materials Technology</b>
+            <ul>
+              <li>- Graphics Engineering</li>
+              <li>- Machine Design Technology</li>
+              <li>- Materials Technology</li>
+            </ul>
+          <b>Industrial Structures And Buildings</b>
+            <ul>
+              <li>- Construction Technology</li>
+              <li>- Structures</li>
+            </ul>
+          <b>Electrical And Energy Technology</b>
+            <ul>
+              <li>- Electrical machines</li>
+              <li>- Electrical technology</li>
+              <li>- Energy Technology</li>
+            </ul>
+          <b>Electronics And Automation Technology</b>
+            <ul>
+              <li>- Control and automation technology</li>
+              <li>- Electronic technology</li>
+              <li>- Industrial Informatics Technology</li>
+            </ul>
+          <h5>Extension Of Basic Training</h5>
+          <b>Mathematics Extension</b>
+            <ul>
+              <li>- Mathematical Methods</li>
+              <li>- Mathematics III</li>
+              <li>- Operational research</li>
+            </ul>
+          <b>Physics Extension</b> (Physics III)
+
+
+          
+        " data-trigger="focus" data-html="true" data-container="body">Bachelor's Degree in Industrial Technology Engineering</a></h4>
           <h5>Universitat Politèctica de València</h5>
           <p class="text-secondary">This degree trains professionals to design, build, maintain and manage equipment and industrial facilities in both traditional and future areas. These studies enjoy great professional success thanks to the ample knowledge provided on the different industrial technologies it offers, due to the great adaptability and versatility of their graduates after their access to the labour market. <a href="https://www.upv.es/titulaciones/GITI/index-en.html" target="_blank">Read more...</a></p>
         </div>
@@ -635,7 +768,7 @@
             </li>
             <li>
               <h5>Stay Ahead in Advanced Manufacturing</h5>
-              <p><a href="https://www.linkedin.com/learning/paths/stay-ahead-in-advanced-manufacturing?u=2289946">Linkedin</a><br>Nov 2019</p>
+              <p><a href="https://www.linkedin.com/learning/paths/stay-ahead-in-advanced-manufacturing?u=2289946">Linkedin</a><br>Apr 2020</p>
             </li>
           </ul>
         </div>
