@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects - agustín</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/as.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75586685-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-75586685-3');
+    </script>
+    <style type="text/css">
+      button.active1 {
+        /*border-color: black;*/
+        background-color: lightgrey;
+      }
+      .btn {
+        margin: 4px;
+      }
+      .btn:hover {
+        border-color: black;
+      }
+      .img:hover {
+        transform: scale(1.01);
+      }
+      .no-style-link:hover {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand d-block d-sm-none" href="index.html">
+            <img id="logo" src="img/as-m.png">
+          </a>  
+          <a class="navbar-brand d-none d-sm-block" href="index.html">
+            <img id="logo" src="img/as-m.png">
+            <span>agustín spaccesi</span>
+          </a>    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
+            <ul class="navbar-nav mr-auto  container-fluid align-self-center justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="my-resume.html">Resume</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="my-projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-me.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <br>
+    <div class="text-center container">
+      <div class="row text-center container" style="max-width: 1500px;">
+        <div class="container col-12" style="padding:7.5px; margin-bottom: 30px; border-style: solid;">
+          <!-- <img width="100%" src="img/my-3d.png"> -->
+          <div class="" style="padding: 30px;">
+            <h2 style="">projects</h2>
+         
+            <p class="text-secondary d-none d-sm-block"><br>-- Find here some of my works. Design, 3D prints, renders and photographies are some examples of what you will find here.</p><br>
+            <div id="myBtnContainer">
+              <button class="btn active1" onclick="filterSelection('all')">Show all</button>
+              <!-- <button class="btn design" onclick="filterSelection('design')">Design</button>
+              <button class="btn 3dprints" onclick="filterSelection('3dprints')">3D Prints</button> -->
+              <button class="btn photography" onclick="filterSelection('photography')">Photography</button>
+              <!-- <button class="btn grafd" onclick="filterSelection('grafd')">Graphic Design</button>
+              <button class="btn sports" onclick="filterSelection('sports')">Sports</button> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="project-container col-md-6 column design 3dprints sports img">
+          <a href="ice-skate-cover.html" class="no-style-link">
+              <img width="100%;" src="projects/IceSkateCover/IceSkateCover.png">
+            <div class="text-on-picture text-center">
+              <h2 class="light-text">Ice skate cover</h2>
+              <p class="light-text d-none d-sm-block">-- No more sharped edges</p>
+            </div>
+          </a>
+        </div>
+        <div class="project-container col-md-6 column design 3dprints img">
+          <a href="gnocchi-maker.html" class="no-style-link">
+            <img width="100%;"src="projects/GnocchiMaker/Gnocchi v2.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">Gnocchi maker</h2>
+              <p class="light-text d-none d-sm-block">-- Do it the traditional way</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column design 3dprints sports img">
+          <a href="longboard-updates.html" class="no-style-link">
+            <img width="100%;" src="projects/LongboardUpdates/SkateClassic v1.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">longboard updates</h2>
+              <p class="light-text d-none d-sm-block">-- Bringing an old longboard back to life</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column design 3dprints sports img">
+          <a href="climbing-holds.html" class="no-style-link">
+            <img width="100%;" src="projects/Climbing/roca v3.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">Climbing holds</h2>
+              <p class="light-text d-none d-sm-block">-- "The goal is not to reach the top, but to improve the man"</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column 3dprints sports img">
+          <a href="" class="no-style-link">
+            <img width="100%;" src="projects/GymnasticRings/Anillas v2.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">gymnastic rings</h2>
+              <p class="light-text d-none d-sm-block">--</p>
+            </div>
+          </a>
+        </div> -->
+        <div class="col-md-6 project-container column photography img">
+          <a href="madrid-airport.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/MadridAirportairport2.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">color</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column photography img">
+          <a href="niagara-falls.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/NiagaraFallsfalls2.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">niagara falls</h2>
+              <p class="light-text d-none d-sm-block">--</p>
+            </div>
+          </a>
+        </div>
+        <!-- <div class="col-md-6 project-container column design 3dprints img">
+          <a href="bottle-cap.html" class="no-style-link">
+            <img width="100%;" src="projects/LongboardUpdates/SkateClassic v1.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">bottle cap</h2>
+              <p class="light-text d-none d-sm-block">--</p>
+            </div>
+          </a>
+        </div> -->
+        <div class="col-md-6 project-container column photography img">
+          <a href="river.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/River_MG_8626.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">riverside</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column photography img">
+          <a href="rodeo.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/Rodeo_MG_8943.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">rodeo</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column photography img">
+          <a href="rodeo.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/feria5.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">feria</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column photography img">
+          <a href="toronto.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/Toronto_MG_9776.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">toronto</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div>
+        <!-- <div class="col-md-6 project-container column design 3dprints img">
+          <a href="guitarr-capo-html" class="no-style-link">
+            <img width="100%;" src="projects/IceSkateCover/IceSkateCover.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">Guitar capo</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div> -->
+        <div class="col-md-6 project-container column photography img">
+          <a href="ranch.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/RanchNightranchnight1.png">
+            <div class="text-on-picture">
+              <h2 class="light-text">ranch</h2>
+              <p class="light-text d-none d-sm-block">-- </p>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+    <hr>
+    <footer class="text-center container-fluid">
+      <div class="text-center container-fluid">
+        <p class="">
+          <a href="index.html" class="link-footer">Home</a>
+          <a href="my-resume.html" class="link-footer">Resume</a>
+          <a href="my-projects.html" class="link-footer">Projects</a>
+          <a href="contact-me.html" class="link-footer">Contact</a>
+          <a href="privacy-policy.html" class="link-footer">Privacy&nbsp;Policy</a>
+        </p>
+      </div>
+      <div class="container" style="max-width: 300px; padding: 30px;">
+        <a href="www.linkedin.com/in/agustinspaccesi" class="link-footer"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://wa.me/34695496544" class="link-footer"><i class="fab fa-whatsapp fa-2x"></i></a>
+        <a href="mailto:agustin@spaccesi.com?Subject=Hello%20from%20your%20Website" target="_top" class="link-footer"><i class="far fa-envelope-open fa-2x"></i></i></a>
+        <!-- <a href="" class="link-footer"><i class="fab fa-skype fa-2x"></i></a> -->
+      </div>
+      <p>____<img src="/img/sign.png" class="sign">____</p>
+    </footer>
+    <!--Privacy Call-->
+      <div class="callout">
+      <p style="margin: 0px;">I use cookies. <a href="privacy-policy.html">Privacy Policy</a>.&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span class="closebtn" onclick="this.parentElement.style.display='none';"><i class="fas fa-window-close"></i></span></p>
+    </div>
+      <div class="callout">
+      <p style="margin: 0px;">I use cookies. <a href="privacy-policy.html">Privacy Policy</a>.&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span class="closebtn" onclick="this.parentElement.style.display='none';"><i class="fas fa-window-close"></i></span></p>
+    </div>
+  </body>
+  <script>
+    filterSelection("all");
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName(" active1");
+        current[0].className = current[0].className.replace(" active1", "");
+        this.className += " active1";
+      });
+    }
+    // cuando se cargue la página
+    window.addEventListener("load", function(event) {
+      // obtén el ID del document al que quieres hacer scroll
+      const hash = window.location.hash.replace("#objetivo=", ""); 
+      if(hash!="") {
+        // llama a la función para que vaya al elemento indicado
+        filterSelection(hash);
+        filterSelection1(hash);
+      }
+    });
+  </script>
+</html>

@@ -15,9 +15,12 @@
 	height: 48px;
 	width: auto;
   margin-left: 1em;
+  padding-right: 1em;
 }
 
-
+.img-link:hover {
+  opacity: 0.9;
+}
 figure {
 	margin-bottom: 8px;
 }
@@ -47,15 +50,18 @@ li {
 
 /*Footer Style*/
 footer {
-  background-color: #101010;
+  background-color: white;
+  color: #212529 !important;
+  /*text-shadow: 1px 1px grey;*/
+  padding: 30px;
 }
 .link-footer {
-	color: #ccc !important;
+	color: #212529 !important;
 	margin: 20px 10px 20px 10px;
 }
 
 .link-footer:hover, .link-footer:active {
-	color: white !important;
+	color: grey !important;
 	text-decoration: none;
 }
 
@@ -200,17 +206,55 @@ img.hover-shadow {
   color: lightgrey;
 }
 
-footer {
-  padding: 30px;
-}
-
 .no-style-link {
   cursor: pointer;
   color: black;
-
 
 }
 .no-style-link:hover {
   color: grey;
   text-decoration: none;
+}
+.text-on-picture {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.project-container {
+  text-align: center;
+  padding: 7.5px;
+  float: left;
+}
+
+.column {
+  display: none;
+}
+.show {
+  display: block;
+}
+.photo-carrousel{ 
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  top:0;
+  right: 0;
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-caption {
+  text-shadow: 1px 1px black;
+}
+
+.popover{
+  max-width: 50%;
+}
+
+.light-text {
+  color: #fffeff;
 }
