@@ -11,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5c3228ec38.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="img/as.png">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75586685-3"></script>
@@ -73,20 +73,18 @@
     </header>
     <br>
     <div class="text-center container">
-      <div class="row text-center container" style="max-width: 1500px;">
-        <div class="container col-12" style="padding:7.5px; margin-bottom: 30px; border-style: solid;">
-          <!-- <img width="100%" src="img/my-3d.png"> -->
+      <div class="container row m-0" style="max-width: 1500px;">
+        <div class="col-12" style="padding:7.5px; margin-bottom: 30px; border-style: solid;">
           <div class="" style="padding: 30px;">
             <h2 style="">projects</h2>
-         
             <p class="text-secondary d-none d-sm-block"><br>-- Find here some of my works. Design, 3D prints, renders and photographies are some examples of what you will find here.</p><br>
             <div id="myBtnContainer">
               <button class="btn active1" onclick="filterSelection('all')">Show all</button>
               <button class="btn design" onclick="filterSelection('design')">Design</button>
               <button class="btn 3dprints" onclick="filterSelection('3dprints')">3D Prints</button>
               <button class="btn photography" onclick="filterSelection('photography')">Photography</button>
-              <!-- <button class="btn grafd" onclick="filterSelection('grafd')">Graphic Design</button>
-              <button class="btn sports" onclick="filterSelection('sports')">Sports</button> -->
+              <button class="btn grafd" onclick="filterSelection('grafd')">Graphic Design</button>
+              <button class="btn sports" onclick="filterSelection('sports')">Sports</button>
             </div>
           </div>
         </div>
@@ -94,8 +92,8 @@
           <a href="ice-skate-cover.html" class="no-style-link">
               <img width="100%;" src="projects/IceSkateCover/IceSkateCover.png">
             <div class="text-on-picture text-center">
-              <h2 class="light-text">Ice skate cover</h2>
-              <p class="light-text d-none d-sm-block">-- No more sharped edges</p>
+              <h2 class="text-light">Ice skate cover</h2>
+              <p class="text-light">#design #3DPrint #sports</p>
             </div>
           </a>
         </div>
@@ -103,17 +101,17 @@
           <a href="gnocchi-maker.html" class="no-style-link">
             <img width="100%;"src="projects/GnocchiMaker/Gnocchi v2.png">
             <div class="text-on-picture">
-              <h2 class="light-text">Gnocchi maker</h2>
-              <p class="light-text d-none d-sm-block">-- Do it the traditional way</p>
+              <h2 class="text-light">Gnocchi maker</h2>
+              <p class="text-light">#design #3DPrint</p>
             </div>
           </a>
         </div>
-        <div class="col-md-6 project-container column design 3dprints sports img">
-          <a href="longboard-updates.html" class="no-style-link">
-            <img width="100%;" src="projects/LongboardUpdates/SkateClassic v1.png">
+        <div class="col-md-6 project-container column design 3dprints img">
+          <a href="bottle-cap.html" class="no-style-link">
+            <img width="100%;" src="projects/BottleCap/Cap v2.png">
             <div class="text-on-picture">
-              <h2 class="light-text">longboard updates</h2>
-              <p class="light-text d-none d-sm-block">-- Bringing an old longboard back to life</p>
+              <h2 class="text-light">bottle cap</h2>
+              <p class="text-light">#design #3DPrint</p>
             </div>
           </a>
         </div>
@@ -121,26 +119,53 @@
           <a href="climbing-holds.html" class="no-style-link">
             <img width="100%;" src="projects/Climbing/roca v3.png">
             <div class="text-on-picture">
-              <h2 class="light-text">Climbing holds</h2>
-              <p class="light-text d-none d-sm-block">-- "The goal is not to reach the top, but to improve the man"</p>
+              <h2 class="text-light">Climbing holds</h2>
+              <p class="text-light">#design #3DPrint #sports</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column design 3dprints sports img">
+          <a href="longboard-gloves.html" class="no-style-link">
+            <img width="100%;" src="projects/LongboardUpdates/SkateClassic v1.png">
+            <div class="text-on-picture">
+              <h2 class="text-light">longboard gloves</h2>
+              <p class="text-light">#design #3DPrint #sports</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column design 3dprints sports img">
+          <a href="climbing-holds.html" class="no-style-link">
+            <img width="100%;" src="projects/Climbing/roca v3.png">
+            <div class="text-on-picture">
+              <h2 class="text-light">Climbing holds</h2>
+              <p class="text-light">#design #3DPrint #sports</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column design 3dprints sports img">
+          <a href="longboard-raiser.html" class="no-style-link">
+            <img width="100%;" src="projects/LongboardUpdates/SkateClassic v1.png">
+            <div class="text-on-picture">
+              <h2 class="text-light">longboard raisers</h2>
+              <p class="text-light">#design #3DPrint #sports</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container column design 3dprints img">
+          <a href="guitarr-capo.html" class="no-style-link">
+            <img width="100%;" src="projects/IceSkateCover/IceSkateCover.png">
+            <div class="text-on-picture">
+              <h2 class="text-light">Guitar capo</h2>
+              <p class="text-light">#design #3DPrint</p>
             </div>
           </a>
         </div>
         <div class="col-md-6 project-container column 3dprints sports img">
-          <a href="" class="no-style-link">
+          <a href="gymnastic-rings.html" class="no-style-link">
             <img width="100%;" src="projects/GymnasticRings/Anillas v2.png">
             <div class="text-on-picture">
-              <h2 class="light-text">gymnastic rings</h2>
-              <p class="light-text d-none d-sm-block">--</p>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6 project-container column photography img">
-          <a href="madrid-airport.html" class="no-style-link">
-            <img width="100%;" src="my-pictures/MadridAirportairport2.png">
-            <div class="text-on-picture">
-              <h2 class="light-text">color</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
+              <h2 class="text-light">gymnastic rings</h2>
+              <p class="text-light">#design #3DPrint #sports</p>
             </div>
           </a>
         </div>
@@ -148,26 +173,17 @@
           <a href="niagara-falls.html" class="no-style-link">
             <img width="100%;" src="my-pictures/NiagaraFallsfalls2.png">
             <div class="text-on-picture">
-              <h2 class="light-text">niagara falls</h2>
-              <p class="light-text d-none d-sm-block">--</p>
+              <h2 class="text-light">niagara falls</h2>
+              <p class="text-light">#photography</p>
             </div>
           </a>
         </div>
-        <!-- <div class="col-md-6 project-container column design 3dprints img">
-          <a href="bottle-cap.html" class="no-style-link">
-            <img width="100%;" src="projects/LongboardUpdates/SkateClassic v1.png">
-            <div class="text-on-picture">
-              <h2 class="light-text">bottle cap</h2>
-              <p class="light-text d-none d-sm-block">--</p>
-            </div>
-          </a>
-        </div> -->
         <div class="col-md-6 project-container column photography img">
           <a href="river.html" class="no-style-link">
             <img width="100%;" src="my-pictures/River_MG_8626.png">
             <div class="text-on-picture">
-              <h2 class="light-text">riverside</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
+              <h2 class="text-light">riverside</h2>
+              <p class="text-light">#photography</p>
             </div>
           </a>
         </div>
@@ -175,8 +191,8 @@
           <a href="rodeo.html" class="no-style-link">
             <img width="100%;" src="my-pictures/Rodeo_MG_8943.png">
             <div class="text-on-picture">
-              <h2 class="light-text">rodeo</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
+              <h2 class="text-light">rodeo</h2>
+              <p class="text-light">#photography</p>
             </div>
           </a>
         </div>
@@ -184,8 +200,8 @@
           <a href="rodeo.html" class="no-style-link">
             <img width="100%;" src="my-pictures/feria5.png">
             <div class="text-on-picture">
-              <h2 class="light-text">feria</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
+              <h2 class="text-light">feria</h2>
+              <p class="text-light">#photography</p>
             </div>
           </a>
         </div>
@@ -193,32 +209,39 @@
           <a href="toronto.html" class="no-style-link">
             <img width="100%;" src="my-pictures/Toronto_MG_9776.png">
             <div class="text-on-picture">
-              <h2 class="light-text">toronto</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
+              <h2 class="text-light">toronto</h2>
+              <p class="text-light">#photography</p>
             </div>
           </a>
         </div>
-        <!-- <div class="col-md-6 project-container column design 3dprints img">
-          <a href="guitarr-capo-html" class="no-style-link">
-            <img width="100%;" src="projects/IceSkateCover/IceSkateCover.png">
-            <div class="text-on-picture">
-              <h2 class="light-text">Guitar capo</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
-            </div>
-          </a>
-        </div> -->
         <div class="col-md-6 project-container column photography img">
           <a href="ranch.html" class="no-style-link">
             <img width="100%;" src="my-pictures/RanchNightranchnight1.png">
             <div class="text-on-picture">
-              <h2 class="light-text">ranch life</h2>
-              <p class="light-text d-none d-sm-block">-- </p>
+              <h2 class="text-light">ranch life</h2>
+              <p class="text-light">#photography</p>
             </div>
           </a>
         </div>
-        
+        <div class="col-md-6 project-container container-fluid column photography img">
+          <a href="madrid-airport.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/MadridAirportairport2.png">
+            <div class="text-on-picture">
+              <h2 class="text-light">color</h2>
+              <p class="text-light">#photography</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 project-container container column grafd img">
+          <a href="logos.html" class="no-style-link">
+            <img width="100%;" src="my-pictures/NiagaraFallsfalls2.png">
+            <div class="text-on-picture">
+              <h2 class="text-light">personal logos</h2>
+              <p class="text-light">#graphicDesign</p>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
     </div>
     <hr>
     <footer class="text-center container-fluid">
