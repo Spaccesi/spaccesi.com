@@ -240,14 +240,20 @@ img.hover-shadow {
   max-width: 50%;
 }
 
-.max-1500 {
+.max-big {
   max-width: 1500px;
 }
 
-.max-1000 {
-  max-width: 1000px;
+.max-med {
+  max-width: 1200px;
 }
 
-.max-800 {
+.max-small {
   max-width: 800px;
+}
+
+.tittle-projects {
+  padding:7.5px; 
+  margin-bottom: 30px; 
+  border-style: solid;
 }
