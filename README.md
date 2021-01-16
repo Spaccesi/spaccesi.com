@@ -4,12 +4,17 @@ This repository contains all the code and media needed to support my website usi
 
 If you want to see the result, [click here](http://spaccesi.com/). 
 
+## External resources
+
 Thanks a lot to:
 - [GitHub Pages](https://pages.github.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Bootstrap](https://getbootstrap.com/)
 
+## Cookies
+
 Cookies are used to get information to improve the content:
 - Google Analytics
 - Google Search Console  
+
 [Click here](http://spaccesi.com/privacy-policy.html) for more information.
