@@ -1,6 +1,6 @@
-# My personal website
+# My website
 
-This repository contain all the code and media needed to support my personal website using [GitHub Pages](https://pages.github.com/) as a host.
+This repository contains all the code and media needed to support my website using [GitHub Pages](https://pages.github.com/) as host.
 
 If you want to see the result, [click here](http://spaccesi.com/). 
 
@@ -9,7 +9,7 @@ Thanks a lot to:
 - [Font Awesome](https://fontawesome.com/)
 - [Bootstrap](https://getbootstrap.com/)
 
-Cookies are used in order to get information to improve the content:
+Cookies are used to get information to improve the content:
 - Google Analytics
 - Google Search Console  
 [Click here](http://spaccesi.com/privacy-policy.html) for more information.
