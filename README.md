@@ -2,7 +2,7 @@
 
 This repository contains all the code and media needed to support my website using [GitHub Pages](https://pages.github.com/) as host.
 
-If you want to see the result, [click here](http://spaccesi.com/). 
+If you want to see the result, [click here](http://spaccesi.com/?ref=GitHub). 
 
 ## External resources
 
